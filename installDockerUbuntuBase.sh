@@ -3,7 +3,7 @@
 echo "Começaremos a Instalar e Configurar o Docker"
 echo "Aqui será dividido em varios passos, escolha o numero correspondente: "
 echo "(BETA)As Ultimas Opções são para instalação de outros serviços. Baixe o arquivo.sh correspondente"
-select Docker in DockersEssencials DockersGPGKey DockerSetupRepository DockerInstall DockerTesting DockerEmailServer
+select Docker in DockersEssencials DockersGPGKey DockerSetupRepository DockerInstall DockerTesting DockerEmailServer Sair
 do
 echo "Escolheu $Docker "
 #continue
@@ -45,6 +45,9 @@ DockerTesting)
 DockerEmailServer)
   echo "Começar a Instalar Servidor de Email"
   ./dockerEmailRoundcube.sh
+  break;;
+Sair)
+  echo "Saindo..."
   break;;
 *)
   echo "Opcao invalida!"
