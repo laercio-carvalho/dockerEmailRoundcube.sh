@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5348f11-70e3-41b8-bd21-7113ad911f88" name="Changes" comment="">
+    <list default="true" id="a5348f11-70e3-41b8-bd21-7113ad911f88" name="Changes" comment="Foi colocado a opcao Sair">
       <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dockerEmailRoundcube.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dockerEmailRoundcube.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/installDockerUbuntuBase.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/installDockerServers.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +19,7 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="Laercio Carvalho Silva &lt;laercio_ti-linux@yahoo.com.br&gt;" />
         <option value="Laercio Carvalho Silva" />
       </list>
     </option>
@@ -35,20 +34,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "Errors",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -64,16 +64,65 @@
       <updated>1676148042138</updated>
       <workItem from="1676148043534" duration="10188000" />
       <workItem from="1676161385392" duration="9000" />
-      <workItem from="1676161491376" duration="2716000" />
+      <workItem from="1676161491376" duration="5459000" />
+      <workItem from="1677795050516" duration="11089000" />
     </task>
+    <task id="LOCAL-00001" summary="Script feito em ShellScrip + Bash p/ Instalar/Configurar um Webmail c/ o Docker.&#10;Me limito apenas a instalar, trocar portas; usar uma pasta local padrao para conseguir salvar as alteracões dos arquivos deste servico.&#10;Se não tem o Docker: &#10;#./installDockerUbuntuBase.sh no teminal com as permissões de execussao.&#10;Se ja tiver:&#10;#./dockerEmailRoundcube.sh">
+      <created>1676165926127</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676165926127</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Script feito em ShellScrip + Bash p/ Instalar/Configurar um Webmail c/ o Docker.&#10;Me limito apenas a instalar, trocar portas; usar uma pasta local padrao para conseguir salvar as alteracões dos arquivos deste servico.&#10;Se não tem o Docker: &#10;#./installDockerUbuntuBase.sh no teminal com as permissões de execussao.&#10;Se ja tiver:&#10;#./dockerEmailRoundcube.sh">
+      <created>1676166071619</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676166071619</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Script feito em ShellScrip + Bash p/ Instalar/Configurar um Webmail c/ o Docker.&#10;Me limito apenas a instalar, trocar portas; usar uma pasta local padrao para conseguir salvar as alteracões dos arquivos deste servico.&#10;Se não tem o Docker: &#10;#./installDockerUbuntuBase.sh no teminal com as permissões de execussao.&#10;Se ja tiver:&#10;#./dockerEmailRoundcube.sh">
+      <created>1676166297162</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676166297162</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Script feito em ShellScrip + Bash p/ Instalar/Configurar um Webmail c/ o Docker.&#10;Me limito apenas a instalar, trocar portas; usar uma pasta local padrao para conseguir salvar as alteracões dos arquivos deste servico.&#10;Se não tem o Docker: &#10;#./installDockerUbuntuBase.sh no teminal com as permissões de execussao.&#10;Se ja tiver:&#10;#./dockerEmailRoundcube.sh">
+      <created>1676166408069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676166408069</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Foi colocado a opcao Sair">
+      <created>1676176420940</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676176420940</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Script feito em ShellScrip + Bash p/ Instalar/Configurar um Webmail c/ o Docker.&#10;Me limito apenas a instalar, trocar portas; usar uma pasta local padrao para conseguir salvar as alteracões dos arquivos deste servico.&#10;Se não tem o Docker: &#10;#./installDockerUbuntuBase.sh no teminal com as permissões de execussao.&#10;Se ja tiver:&#10;#./dockerEmailRoundcube.sh" />
-    <option name="LAST_COMMIT_MESSAGE" value="Script feito em ShellScrip + Bash p/ Instalar/Configurar um Webmail c/ o Docker.&#10;Me limito apenas a instalar, trocar portas; usar uma pasta local padrao para conseguir salvar as alteracões dos arquivos deste servico.&#10;Se não tem o Docker: &#10;#./installDockerUbuntuBase.sh no teminal com as permissões de execussao.&#10;Se ja tiver:&#10;#./dockerEmailRoundcube.sh" />
+    <MESSAGE value="Foi colocado a opcao Sair" />
+    <option name="LAST_COMMIT_MESSAGE" value="Foi colocado a opcao Sair" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
